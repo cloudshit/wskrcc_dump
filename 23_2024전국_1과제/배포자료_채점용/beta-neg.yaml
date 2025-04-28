@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: day1-beta-neg
+  namespace: beta
+  labels:
+    cloudhrdk.com/env: prod
+spec:
+  containers:
+  - name: day1-beta-neg
+    image: alpine/curl:8.9.0
+    command: ["sleep", "86400"]

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills Frontend</title>
+</head>
+<body>
+    <h1>Skills Frontend</h1>
+    <p>This is Single Page Application v1.</p>
+    <button onclick="getTime();">현재 시각 가져오기</button>
+    <p id="now"></p>
+    <script>
+        const getTime = () => {
+            fetch('/api/time', {method: 'get'})
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('now').innerHTML = data['time'];
+            })
+            .catch(error => {
+                alert('오류가 발생했습니다.');
+                console.error(error);
+            })
+        }
+    </script>
+</body>
+</html>
