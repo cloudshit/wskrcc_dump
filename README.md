@@ -1,5 +1,5 @@
 # wscc_dump
-대회 과제/채점지/배포자료 덤프 (21~)
+대회 과제, 채점지, 배포자료 덤프 (21~)
 
 ## 출처
 * https://meister.hrdkorea.or.kr/sub/3/6/3/informationSquare/byYearTask.do
