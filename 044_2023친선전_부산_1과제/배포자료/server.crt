@@ -1,0 +1,87 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            de:a1:2a:b2:62:c6:e7:10:4d:02:47:67:0d:d2:87:5a
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=worldskills.internal
+        Validity
+            Not Before: Mar  5 07:17:07 2023 GMT
+            Not After : Jun  7 07:17:07 2025 GMT
+        Subject: CN=server
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c1:df:5b:fc:1e:bc:ec:2f:fa:05:67:a2:6e:56:
+                    21:73:98:c6:dd:2a:21:17:dd:b1:56:49:3e:27:21:
+                    81:e4:b6:15:f5:cf:8c:86:e6:77:c9:c5:f2:2c:59:
+                    5f:a6:d8:c6:59:da:a2:34:3d:34:cc:65:63:c4:af:
+                    86:b6:31:92:4a:21:45:10:18:f1:78:f2:47:fd:28:
+                    c1:fb:b3:d2:1a:8e:83:24:6e:0e:31:40:51:a3:c7:
+                    a9:51:4f:a9:4c:64:7b:12:30:02:d0:92:f2:8a:62:
+                    44:eb:70:16:d6:04:bf:3e:5a:ff:5f:32:6f:6d:c4:
+                    b3:e6:0a:72:15:d4:5f:c8:e8:da:e7:e4:32:87:e5:
+                    49:06:5e:03:11:a9:e9:99:46:16:ac:97:b5:93:0f:
+                    27:c4:a4:10:99:a2:a6:42:e6:87:bc:3b:27:91:6d:
+                    2b:f9:a9:9e:2e:ee:57:6a:a9:c6:51:0f:b6:15:15:
+                    e3:76:99:1a:bd:5a:f6:c5:34:71:19:72:6e:cd:a6:
+                    b3:ad:55:4a:90:e4:8a:f1:a6:b2:04:52:13:44:95:
+                    21:b1:dd:85:42:76:0e:99:9e:5e:4b:44:15:ab:36:
+                    26:d7:d5:4b:d3:73:e1:96:f9:e9:30:6e:3d:66:0d:
+                    33:01:98:23:ba:21:14:4f:e4:20:95:e1:92:e7:e2:
+                    88:d7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                E4:97:18:5F:17:EE:FD:AA:C9:42:96:3E:B0:5E:25:BF:86:C7:92:E8
+            X509v3 Authority Key Identifier: 
+                keyid:D7:59:97:68:7B:3A:DC:D6:67:EE:1D:17:A6:1F:31:A0:B5:9D:88:BB
+                DirName:/CN=worldskills.internal
+                serial:E5:6C:E5:3B:AB:5D:26:D3
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:server
+    Signature Algorithm: sha256WithRSAEncryption
+         b9:27:bb:2b:30:78:99:ad:6d:78:16:3e:db:c6:1b:e5:c3:4c:
+         04:08:fc:e8:d8:1c:cc:2a:7d:80:cb:33:a4:23:c8:5b:17:3b:
+         60:28:ea:72:42:92:dd:88:5b:75:65:e0:a5:82:9f:5c:df:74:
+         6d:4e:33:79:59:8a:52:0d:d1:36:12:c2:a0:03:91:7c:99:af:
+         94:d8:25:ea:20:32:1f:56:04:47:f3:47:be:1e:1f:cf:a4:10:
+         16:48:ed:c5:1f:94:78:71:28:96:d6:b9:a5:8e:aa:04:bb:ed:
+         d1:87:94:78:62:aa:b8:f0:6b:7a:52:53:db:12:38:f1:fe:82:
+         0a:d9:9d:17:1c:e8:07:ab:16:bf:f5:6f:f3:55:2a:08:f5:1e:
+         7b:bb:49:64:d0:11:25:f0:6f:3f:9e:a3:c9:7e:0a:c6:27:81:
+         19:06:52:f0:46:86:bb:85:0d:45:73:39:43:62:73:4e:b3:28:
+         13:d1:2f:ed:34:4d:b3:83:e5:69:58:ed:9a:5b:f6:41:e1:68:
+         b7:cc:79:22:57:e7:d0:4f:81:98:85:29:0c:07:64:8d:1b:86:
+         75:46:13:1a:39:ce:d4:6b:73:72:d1:30:89:fb:9b:96:bc:89:
+         43:2e:4a:19:cb:e4:e3:5b:8c:68:26:cd:91:6c:af:33:9c:e4:
+         d8:ff:05:cf
+-----BEGIN CERTIFICATE-----
+MIIDbzCCAlegAwIBAgIRAN6hKrJixucQTQJHZw3Sh1owDQYJKoZIhvcNAQELBQAw
+HzEdMBsGA1UEAwwUd29ybGRza2lsbHMuaW50ZXJuYWwwHhcNMjMwMzA1MDcxNzA3
+WhcNMjUwNjA3MDcxNzA3WjARMQ8wDQYDVQQDDAZzZXJ2ZXIwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDB31v8HrzsL/oFZ6JuViFzmMbdKiEX3bFWST4n
+IYHkthX1z4yG5nfJxfIsWV+m2MZZ2qI0PTTMZWPEr4a2MZJKIUUQGPF48kf9KMH7
+s9IajoMkbg4xQFGjx6lRT6lMZHsSMALQkvKKYkTrcBbWBL8+Wv9fMm9txLPmCnIV
+1F/I6Nrn5DKH5UkGXgMRqemZRhasl7WTDyfEpBCZoqZC5oe8OyeRbSv5qZ4u7ldq
+qcZRD7YVFeN2mRq9WvbFNHEZcm7NprOtVUqQ5IrxprIEUhNElSGx3YVCdg6Znl5L
+RBWrNibX1UvTc+GW+ekwbj1mDTMBmCO6IRRP5CCV4ZLn4ojXAgMBAAGjgbMwgbAw
+CQYDVR0TBAIwADAdBgNVHQ4EFgQU5JcYXxfu/arJQpY+sF4lv4bHkugwTwYDVR0j
+BEgwRoAU11mXaHs63NZn7h0Xph8xoLWdiLuhI6QhMB8xHTAbBgNVBAMMFHdvcmxk
+c2tpbGxzLmludGVybmFsggkA5WzlO6tdJtMwEwYDVR0lBAwwCgYIKwYBBQUHAwEw
+CwYDVR0PBAQDAgWgMBEGA1UdEQQKMAiCBnNlcnZlcjANBgkqhkiG9w0BAQsFAAOC
+AQEAuSe7KzB4ma1teBY+28Yb5cNMBAj86NgczCp9gMszpCPIWxc7YCjqckKS3Yhb
+dWXgpYKfXN90bU4zeVmKUg3RNhLCoAORfJmvlNgl6iAyH1YER/NHvh4fz6QQFkjt
+xR+UeHEolta5pY6qBLvt0YeUeGKquPBrelJT2xI48f6CCtmdFxzoB6sWv/Vv81Uq
+CPUee7tJZNARJfBvP56jyX4KxieBGQZS8EaGu4UNRXM5Q2JzTrMoE9Ev7TRNs4Pl
+aVjtmlv2QeFot8x5Ilfn0E+BmIUpDAdkjRuGdUYTGjnO1GtzctEwifublryJQy5K
+Gcvk41uMaCbNkWyvM5zk2P8Fzw==
+-----END CERTIFICATE-----
